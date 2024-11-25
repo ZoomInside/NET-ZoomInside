@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ZoomInside")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+e97f31f69f419a3381e97d7729a38e6d984741bd")]
 [assembly: System.Reflection.AssemblyProductAttribute("ZoomInside")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ZoomInside")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

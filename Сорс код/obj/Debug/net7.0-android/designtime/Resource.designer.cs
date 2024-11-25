@@ -3444,8 +3444,6 @@ namespace ZoomInside
 			global::Camera.MAUI.Resource.Layout.select_dialog_singlechoice_material = global::ZoomInside.Resource.Layout.select_dialog_singlechoice_material;
 			global::Camera.MAUI.Resource.Layout.shellcontent = global::ZoomInside.Resource.Layout.shellcontent;
 			global::Camera.MAUI.Resource.Layout.support_simple_spinner_dropdown_item = global::ZoomInside.Resource.Layout.support_simple_spinner_dropdown_item;
-			global::Camera.MAUI.Resource.Layout.Tabbar = global::ZoomInside.Resource.Layout.Tabbar;
-			global::Camera.MAUI.Resource.Layout.Toolbar = global::ZoomInside.Resource.Layout.Toolbar;
 			global::Camera.MAUI.Resource.Plurals.mtrl_badge_content_description = global::ZoomInside.Resource.Plurals.mtrl_badge_content_description;
 			global::Camera.MAUI.Resource.String.abc_action_bar_home_description = global::ZoomInside.Resource.String.abc_action_bar_home_description;
 			global::Camera.MAUI.Resource.String.abc_action_bar_up_description = global::ZoomInside.Resource.String.abc_action_bar_up_description;
@@ -6738,6 +6736,8 @@ namespace ZoomInside
 			global::Microsoft.Maui.Controls.Compatibility.Resource.Attribute.scrollViewStyle = global::ZoomInside.Resource.Attribute.scrollViewStyle;
 			global::Microsoft.Maui.Controls.Compatibility.Resource.Drawable.abc_ic_clear_material = global::ZoomInside.Resource.Drawable.abc_ic_clear_material;
 			global::Microsoft.Maui.Controls.Compatibility.Resource.Drawable.abc_ic_search_api_material = global::ZoomInside.Resource.Drawable.abc_ic_search_api_material;
+			global::Microsoft.Maui.Controls.Compatibility.Resource.Layout.tabbar = global::ZoomInside.Resource.Layout.tabbar;
+			global::Microsoft.Maui.Controls.Compatibility.Resource.Layout.toolbar = global::ZoomInside.Resource.Layout.toolbar;
 			global::Microsoft.Maui.Controls.Compatibility.Resource.Style.collectionViewTheme = global::ZoomInside.Resource.Style.collectionViewTheme;
 			global::Microsoft.Maui.Controls.Compatibility.Resource.Style.scrollViewTheme = global::ZoomInside.Resource.Style.scrollViewTheme;
 			global::Microsoft.Maui.Controls.Resource.Animation.enterfromleft = global::ZoomInside.Resource.Animation.enterfromleft;
@@ -10012,8 +10012,6 @@ namespace ZoomInside
 			global::Mopups.Resource.Layout.select_dialog_singlechoice_material = global::ZoomInside.Resource.Layout.select_dialog_singlechoice_material;
 			global::Mopups.Resource.Layout.shellcontent = global::ZoomInside.Resource.Layout.shellcontent;
 			global::Mopups.Resource.Layout.support_simple_spinner_dropdown_item = global::ZoomInside.Resource.Layout.support_simple_spinner_dropdown_item;
-			global::Mopups.Resource.Layout.Tabbar = global::ZoomInside.Resource.Layout.Tabbar;
-			global::Mopups.Resource.Layout.Toolbar = global::ZoomInside.Resource.Layout.Toolbar;
 			global::Mopups.Resource.Plurals.mtrl_badge_content_description = global::ZoomInside.Resource.Plurals.mtrl_badge_content_description;
 			global::Mopups.Resource.String.abc_action_bar_home_description = global::ZoomInside.Resource.String.abc_action_bar_home_description;
 			global::Mopups.Resource.String.abc_action_bar_up_description = global::ZoomInside.Resource.String.abc_action_bar_up_description;
@@ -23632,10 +23630,10 @@ namespace ZoomInside
 			public const int support_simple_spinner_dropdown_item = 2131427445;
 			
 			// aapt resource value: 0x7F0B0076
-			public const int Tabbar = 2131427446;
+			public const int tabbar = 2131427446;
 			
 			// aapt resource value: 0x7F0B0077
-			public const int Toolbar = 2131427447;
+			public const int toolbar = 2131427447;
 			
 			static Layout()
 			{
