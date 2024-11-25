@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\NET-ZoomInside\\ZoomInside\\ZoomInside.csproj": {}
+    "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\NET-ZoomInside\\Сорс код\\ZoomInside.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\NET-ZoomInside\\ZoomInside\\ZoomInside.csproj": {
+    "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\NET-ZoomInside\\Сорс код\\ZoomInside.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\NET-ZoomInside\\ZoomInside\\ZoomInside.csproj",
+        "projectUniqueName": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\NET-ZoomInside\\Сорс код\\ZoomInside.csproj",
         "projectName": "ZoomInside",
-        "projectPath": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\NET-ZoomInside\\ZoomInside\\ZoomInside.csproj",
+        "projectPath": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\NET-ZoomInside\\Сорс код\\ZoomInside.csproj",
         "packagesPath": "C:\\Users\\Yanis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\NET-ZoomInside\\ZoomInside\\obj\\",
+        "outputPath": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\NET-ZoomInside\\Сорс код\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
