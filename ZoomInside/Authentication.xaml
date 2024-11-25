@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ZoomInside.Authentication"
+             Title="Authentication">
+
+    <StackLayout BackgroundColor="#faf0dd" Margin="20">
+
+        <Label x:Name="displayLabel"
+               LineBreakMode="WordWrap" 
+               TextColor="#1A2123"
+               FontSize="Large"
+               FontFamily="Comfortaa" />
+
+        <Button Text="...more"
+                HorizontalOptions="Start"
+                BackgroundColor="Transparent"
+                BorderColor="Transparent"
+                FontSize="Large"
+                FontFamily="Comfortaa"
+                FontAttributes="Italic"
+                TextColor="#A8A8A8"
+                Clicked="Button_Clicked" />
+
+
+        <!--<Entry x:Name="usernameEntry"
+                   TextColor="#1A2123"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"
+                   WidthRequest="350"
+                   Placeholder="Въведете потребителско име" 
+                   Completed='usernameEntry_Completed'
+                   Margin="20" />
+
+            <Entry x:Name="passwordEntry"
+                   TextColor="#1A2123"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"
+                   WidthRequest="350"
+                   Placeholder="Въведете парола"
+                   Completed="passwordEntry_Completed"
+                   IsPassword="True"
+                   Margin="20" />
+
+            <Button x:Name="loginButton"
+                    Text="Влизане"
+                    TextColor="#faf0dd"
+                    FontAttributes="Bold"
+                    BackgroundColor="#3C6B78"
+                    FontFamily="Comfortaa"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    WidthRequest="200"
+                    Margin="30"
+                    CornerRadius="20" 
+                    Clicked="loginButton_Clicked" />-->
+            
+    </StackLayout>
+    
+</ContentPage>

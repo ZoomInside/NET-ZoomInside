@@ -1,0 +1,79 @@
+is_global = true
+build_property.TargetFramework = net7.0-windows10.0.19041.0
+build_property.TargetPlatformMinVersion = 10.0.17763.0
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 9A19103F-16F7-4668-BE54-9A1E7A4F7556
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ZoomInside
+build_property.ProjectDir = C:\Users\Yanis\Documents\ZoomInside\ZoomInside\ZoomInside\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[C:/Users/Yanis/Documents/ZoomInside/ZoomInside/ZoomInside/AdminAuthentication.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ZoomInside.AdminAuthentication.xaml
+build_metadata.AdditionalFiles.TargetPath = AdminAuthentication.xaml
+build_metadata.AdditionalFiles.RelativePath = AdminAuthentication.xaml
+
+[C:/Users/Yanis/Documents/ZoomInside/ZoomInside/ZoomInside/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ZoomInside.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/Yanis/Documents/ZoomInside/ZoomInside/ZoomInside/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ZoomInside.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/Yanis/Documents/ZoomInside/ZoomInside/ZoomInside/Authentication.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ZoomInside.Authentication.xaml
+build_metadata.AdditionalFiles.TargetPath = Authentication.xaml
+build_metadata.AdditionalFiles.RelativePath = Authentication.xaml
+
+[C:/Users/Yanis/Documents/ZoomInside/ZoomInside/ZoomInside/CameraAccessment.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ZoomInside.CameraAccessment.xaml
+build_metadata.AdditionalFiles.TargetPath = CameraAccessment.xaml
+build_metadata.AdditionalFiles.RelativePath = CameraAccessment.xaml
+
+[C:/Users/Yanis/Documents/ZoomInside/ZoomInside/ZoomInside/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ZoomInside.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/Yanis/Documents/ZoomInside/ZoomInside/ZoomInside/ManualSearch.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ZoomInside.ManualSearch.xaml
+build_metadata.AdditionalFiles.TargetPath = ManualSearch.xaml
+build_metadata.AdditionalFiles.RelativePath = ManualSearch.xaml
+
+[C:/Users/Yanis/Documents/ZoomInside/ZoomInside/ZoomInside/MediaPickerTests.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ZoomInside.MediaPickerTests.xaml
+build_metadata.AdditionalFiles.TargetPath = MediaPickerTests.xaml
+build_metadata.AdditionalFiles.RelativePath = MediaPickerTests.xaml
+
+[C:/Users/Yanis/Documents/ZoomInside/ZoomInside/ZoomInside/MyMopup.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ZoomInside.MyMopup.xaml
+build_metadata.AdditionalFiles.TargetPath = MyMopup.xaml
+build_metadata.AdditionalFiles.RelativePath = MyMopup.xaml
+
+[C:/Users/Yanis/Documents/ZoomInside/ZoomInside/ZoomInside/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ZoomInside.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/Yanis/Documents/ZoomInside/ZoomInside/ZoomInside/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ZoomInside.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml

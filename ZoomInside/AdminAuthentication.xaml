@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ZoomInside.AdminAuthentication"
+             Title="Удостоверяване на администратор" BackgroundColor="#faf0dd">
+
+    <Grid BackgroundColor="#faf0dd">
+
+        <VerticalStackLayout VerticalOptions="Center">
+
+            <Label Text="Удостоверяване на администратор"
+                   FontAttributes="Bold"
+                   TextColor="#1A2123"
+                   FontSize="35"
+                   FontFamily="Comfortaa"
+                   HorizontalOptions="Center"
+                   Margin="40" />
+
+            <Entry x:Name="usernameEntry"
+                   TextColor="#1A2123"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"
+                   WidthRequest="350"
+                   Placeholder="Въведете потребителско име" 
+                   Completed='usernameEntry_Completed'
+                   Margin="20" />
+            
+            <Entry x:Name="passwordEntry"
+                   TextColor="#1A2123"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"
+                   WidthRequest="350"
+                   Placeholder="Въведете парола"
+                   Completed="passwordEntry_Completed"
+                   IsPassword="True"
+                   Margin="20" />
+
+            <Button x:Name="loginButton"
+                    Text="Влизане"
+                    TextColor="#faf0dd"
+                    FontAttributes="Bold"
+                    BackgroundColor="#3C6B78"
+                    FontFamily="Comfortaa"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    WidthRequest="200"
+                    Margin="30"
+                    CornerRadius="20"
+                    Clicked="Button_Clicked" />
+
+        </VerticalStackLayout>
+
+        <StackLayout VerticalOptions="End" IsVisible="false">
+
+            <Border WidthRequest="250"
+                    HeightRequest="80"
+                    Margin="35"
+                    BackgroundColor="#EE1A2123" >
+
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="50"/>
+                </Border.StrokeShape>
+
+                <HorizontalStackLayout HorizontalOptions="Center">
+                    <Button Text="Начало"
+                            BackgroundColor="#3C6B78"
+                            FontFamily="Comfortaa"
+                            FontAttributes="Bold"
+                            Margin="18, 15"                         
+                            CornerRadius="50" 
+                            TextColor="#faf0dd"
+                            Clicked="Button_Clicked_1" />
+                    <Button Text="Админ"
+                            BackgroundColor="#3C6B78"
+                            FontFamily="Comfortaa"
+                            FontAttributes="Bold"
+                            Margin="18, 15"
+                            TextColor="#faf0dd"
+                            IsVisible="False"
+                            CornerRadius="50" />
+
+                </HorizontalStackLayout>
+
+            </Border>
+            
+        </StackLayout>
+        
+    </Grid>
+    
+</ContentPage>

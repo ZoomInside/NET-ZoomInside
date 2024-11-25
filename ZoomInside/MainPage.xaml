@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ZoomInside.MainPage" 
+             Title="Достъп до Firebase"  BackgroundColor="#faf0dd">
+
+
+    <Grid BackgroundColor="#faf0dd">
+
+        <VerticalStackLayout VerticalOptions="Start" Margin="0, 50">
+
+            <Label Text="Достъп до базата от данни и добавяне на нови елементи"
+                   FontAttributes="Bold"
+                   TextColor="#1A2123"
+                   FontSize="30"
+                   FontFamily="Comfortaa"
+                   HorizontalOptions="Center"
+                   Margin="30" />
+
+            <Entry x:Name="eType"
+                   TextColor="#1A2123"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"
+                   WidthRequest="350"
+                   Placeholder="Въведете веществото"
+                   Margin="15" 
+                   Completed="eType_Completed"/>
+            <Entry x:Name="explanationEntry"
+                   TextColor="#1A2123"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"
+                   WidthRequest="350"
+                   Placeholder="Въведете описанието" 
+                   Margin="15" />
+            
+
+            <StackLayout Margin="5">
+                <Label Text="Избери нивото на вредност на веществото: "
+                       FontAttributes="Bold"
+                       TextColor="#1A2123"
+                       FontSize="15"
+                       FontFamily="Comfortaa"
+                       HorizontalOptions="Center" />
+
+                <HorizontalStackLayout HorizontalOptions="Center">
+                    <RadioButton x:Name="dangerScale_1"
+                                 BorderColor="#1A2123"
+                                 Content="1" 
+                                 GroupName="dangerScale"
+                                 CheckedChanged="dangerScale_CheckedChanged"
+                                 Margin="60, 0, 0, 0" />
+                    <RadioButton x:Name="dangerScale_2"
+                                 BorderColor="#1A2123"
+                                 Content="2" 
+                                 GroupName="dangerScale"
+                                 CheckedChanged="dangerScale_CheckedChanged"
+                                 Margin="60, 0, 60, 0" />
+                    <RadioButton x:Name="dangerScale_3"
+                                 BorderColor="#1A2123"
+                                 Content="3" 
+                                 GroupName="dangerScale"
+                                 CheckedChanged="dangerScale_CheckedChanged"
+                                 Margin="0, 0, 60, 0" />
+                </HorizontalStackLayout>
+
+            </StackLayout>
+
+
+            <Button x:Name="dataButton"
+                    Text="Добави елемент"
+                    TextColor="#faf0dd"
+                    FontFamily="Comfortaa"
+                    FontAttributes="Bold"
+                    BackgroundColor="#3C6B78"
+                    CornerRadius="20"
+                    Clicked="AddValue"
+                    Margin="15"
+                    HorizontalOptions="Center" />           
+
+            
+        </VerticalStackLayout>
+
+        <!--<StackLayout VerticalOptions="End">
+            <Border WidthRequest="250"
+                    HeightRequest="80"
+                    Margin="35"
+                    BackgroundColor="#EE1A2123" >
+
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="50"/>
+                </Border.StrokeShape>
+
+                <HorizontalStackLayout HorizontalOptions="Center">
+                    <Button Text="Начало"
+                            TextColor="#faf0dd"
+                            BackgroundColor="#3C6B78"
+                            FontFamily="Comfortaa"
+                            FontAttributes="Bold"
+                            Margin="18, 15"                         
+                            CornerRadius="50" 
+                            Clicked="Button_Clicked" />
+                    <Button Text="Админ"
+                            TextColor="#faf0dd"
+                            BackgroundColor="#3C6B78"
+                            FontFamily="Comfortaa"
+                            FontAttributes="Bold"
+                            Margin="18, 15"
+                            CornerRadius="50" 
+                            IsVisible="False" />
+                </HorizontalStackLayout>
+
+            </Border>
+            
+        </StackLayout>-->
+
+        <StackLayout VerticalOptions="End">
+            <Button Text="Начало"
+                    TextColor="#383838"
+                    BackgroundColor="Transparent"
+                    FontFamily="Comfortaa"
+                    FontAttributes="Bold"
+                    Margin="18, 15"                         
+                    CornerRadius="50" 
+                    VerticalOptions="End"
+                    HorizontalOptions="End"
+                    Clicked="Button_Clicked" />
+        </StackLayout>
+
+    </Grid>
+    
+</ContentPage>

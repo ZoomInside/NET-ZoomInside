@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:cv="clr-namespace:Camera.MAUI;assembly=Camera.MAUI"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:mopups="clr-namespace:Mopups.Pages;assembly=Mopups"
+             xmlns:mopupsanim="clr-namespace:Mopups.Animations;assembly=Mopups"
+             x:Class="ZoomInside.CameraAccessment"
+             Title="CameraAccessment" 
+             Shell.NavBarIsVisible="False">
+
+    <Grid BackgroundColor="#FAF0DD">
+        
+        <StackLayout HorizontalOptions="End" VerticalOptions="Start" Margin="15">
+            <ImageButton x:Name="adminButton"
+                         Source="images/settings_icon.png"
+                         WidthRequest="25"
+                         HeightRequest="25" 
+                         Clicked="adminButton_Clicked"/>
+        </StackLayout>
+        
+        <VerticalStackLayout BackgroundColor="#FAF0DD"
+                             VerticalOptions="Center">            
+
+            <!--<StackLayout>
+                
+                <Image Source="images/info_icon.png"
+                       HorizontalOptions="Center"
+                       Margin="5" />
+
+                <Label Text="1. Натиснете един от двата бутона по-долу. С първия можете да направите снимка на съдържанието на продукт. С втория - да напишете директно веществото, което ви интересува."
+                       TextColor="#1A2123"
+                       FontSize="18"
+                       FontFamily="Comfortaa"
+                       FontAttributes="Bold"
+                       HorizontalTextAlignment="Center"
+                       HorizontalOptions="Center"
+                       Margin="20, -10, 20, 0" />
+                <Label Text="2. Ще намерите информация за съставките в продукта и предупреждение ако продукта може да навреди на здравето ви. Индикаторите за нивото на вредност са цветовете - зелен, жълт и червен."
+                       TextColor="#1A2123"
+                       FontSize="18"
+                       FontFamily="Comfortaa"
+                       FontAttributes="Bold"
+                       HorizontalTextAlignment="Center"
+                       HorizontalOptions="Center"
+                       Margin="20, 0, 10, 0" />
+
+            </StackLayout>-->
+
+            <StackLayout>
+                <ActivityIndicator x:Name="activityIndicator"
+                                   IsRunning="False"
+                                   IsVisible="False"
+                                   Color="#1A2123" 
+                                   VerticalOptions="End"
+                                   Margin="30"/>
+            </StackLayout>
+            
+
+            <HorizontalStackLayout HorizontalOptions="Center" VerticalOptions="End">
+                <ImageButton x:Name="cameraButton"
+                             IsVisible="true"
+                             Source="images/camera_icon.png"                             
+                             HeightRequest="70"
+                             WidthRequest="100"
+                             Margin="20, 10, 10, 80"
+                             Clicked="Button_Clicked_2" />
+
+                <ImageButton x:Name="searchButtoon"
+                             IsVisible="true"
+                             Source="images/search_icon.png"
+                             HeightRequest="70"
+                             WidthRequest="100"
+                             Margin="10, 10, 10, 80"
+                             Clicked="searchButtoon_Clicked" />
+            </HorizontalStackLayout>
+
+            <Image x:Name="tester"/>
+
+            <Label x:Name="extractLabel"
+                   Margin="15"
+                   HorizontalOptions="Center" 
+                   TextColor="White"/>
+
+        </VerticalStackLayout>
+        
+        <StackLayout VerticalOptions="End"
+                     HorizontalOptions="Center"
+                     IsVisible="false">
+            
+            <Border WidthRequest="250"
+                    HeightRequest="80"
+                    Margin="35"
+                    BackgroundColor="#EE1A2123" >
+
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="50"/>
+                </Border.StrokeShape>
+
+                <HorizontalStackLayout HorizontalOptions="Center">
+                    <Button Text="Начало"
+                            TextColor="#faf0dd"
+                            BackgroundColor="#3C6B78"
+                            FontFamily="Comfortaa"
+                            FontAttributes="Bold"
+                            Margin="18, 15"
+                            IsVisible="False"
+                            CornerRadius="50" />
+                    <Button Text="Админ"
+                            TextColor="#faf0dd"
+                            BackgroundColor="#3C6B78"
+                            FontFamily="Comfortaa"
+                            FontAttributes="Bold"
+                            Margin="18, 15"
+                            CornerRadius="50" 
+                            Clicked="Button_Clicked"/>
+
+                </HorizontalStackLayout>
+
+            </Border>
+        </StackLayout>
+        
+    </Grid>
+
+</ContentPage>

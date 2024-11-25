@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<mopups:PopupPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+                  xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                  xmlns:mopups="clr-namespace:Mopups.Pages;assembly=Mopups"
+                  xmlns:mopupsanim="clr-namespace:Mopups.Animations;assembly=Mopups"
+                  CloseWhenBackgroundIsClicked="True"
+                  Background="#80000000"
+                  x:Class="ZoomInside.MyMopup">
+
+    <mopups:PopupPage.Animation>
+        <mopupsanim:ScaleAnimation
+            DurationIn="1000"
+            EasingIn="BounceOut"
+            PositionIn="Bottom"
+            PositionOut="Center"
+            ScaleIn="1"
+            ScaleOut="0.7" />
+    </mopups:PopupPage.Animation>
+    <StackLayout HorizontalOptions="Center"
+                 VerticalOptions="End">
+        <Border WidthRequest="390" HeightRequest="650"
+                HorizontalOptions="Center"     
+                BackgroundColor="#faf0dd">
+            <Border.StrokeShape>
+                <RoundRectangle CornerRadius="20" />
+            </Border.StrokeShape>
+
+            <ScrollView>
+                <VerticalStackLayout Spacing="3">
+                    <Label x:Name="thirdLabel"
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center"
+                           Margin="20, 40, 20, 0" 
+                           FontFamily="Comfortaa"
+                           FontSize="23"
+                           TextColor="#A0181D"
+                           FontAttributes="Bold"
+                           HorizontalTextAlignment="Center"/>
+                   <!-- <Button Text="...more"
+                            HorizontalOptions="End"
+                            BackgroundColor="Transparent"
+                            BorderColor="Transparent"
+                            FontFamily="Comfortaa"
+                            FontAttributes="Italic"
+                            FontSize="23"
+                            TextColor="#A0181D"
+                            Opacity="0.5" 
+                            Clicked="Button_Clicked_1" />-->
+
+                    <Label x:Name="secondLabel"
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center"
+                           Margin="20, 0, 20, 0" 
+                           FontFamily="Comfortaa"
+                           FontSize="23"
+                           TextColor="#D89000"
+                           FontAttributes="Bold"
+                           HorizontalTextAlignment="Center"/>
+                    <!--<Button Text="...more"
+                            HorizontalOptions="End"
+                            BackgroundColor="Transparent"
+                            BorderColor="Transparent"
+                            FontFamily="Comfortaa"
+                            FontAttributes="Italic"
+                            FontSize="23"
+                            TextColor="#D89000"
+                            Opacity="0.5"
+                            Clicked="Button_Clicked_1" />-->
+                    
+                    <Label x:Name="firstLabel"
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center"
+                           Margin="20, 0, 20, 0" 
+                           FontFamily="Comfortaa"
+                           FontSize="23"
+                           TextColor="#6F8C20"
+                           FontAttributes="Bold"
+                           HorizontalTextAlignment="Center"/>
+                    <!--<Button Text="...more"
+                            HorizontalOptions="End"
+                            BackgroundColor="Transparent"
+                            BorderColor="Transparent"
+                            FontFamily="Comfortaa"
+                            FontAttributes="Italic"
+                            FontSize="23"
+                            TextColor="#6F8C20"
+                            Opacity="0.5"
+                            Clicked="Button_Clicked_1" />-->
+
+
+                    <Label x:Name="allergensLabel"
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center"
+                           Margin="20, 0, 20, 0" 
+                           FontFamily="Comfortaa"
+                           FontSize="23"
+                           TextColor="#A0181D"
+                           FontAttributes="Bold,Italic"
+                           HorizontalTextAlignment="Center"/>
+
+
+                    <Button Text="Добре"
+                            VerticalOptions="End"
+                            HorizontalOptions="Center"
+                            Background="#C9D7DD"
+                            TextColor="#1A2123"
+                            FontAttributes="Bold"
+                            FontFamily="Comfortaa"
+                            FontSize="17"
+                            Margin="15, 0, 15, 50"
+                            Clicked="Button_Clicked" />
+
+                </VerticalStackLayout>
+            </ScrollView>
+        </Border>
+    </StackLayout>
+
+</mopups:PopupPage>
